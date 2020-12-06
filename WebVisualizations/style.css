@@ -1,26 +1,58 @@
-.nav{
 
-    padding:10px
+body{
+    background-color:red;
 }
 
-.nav-item{
-    color:red;
-
+h1,h2{
+    color:orange
 }
 
-.navbar{
-    color:black;
-
-}
-
-.nav-item{
+.navbar-dark .navbar-nav .nav-link {
     color:orange;
 }
 
-h1{
-    color:yellow
+
+.navbar-dark .navbar-nav>li {
+    margin-right: 10px;
+    color:blue;
 }
 
-.subby{
-    color:yellow
+button{
+    visibility:hidden;
 }
+
+/*--------------- media queries below ------------------*/
+
+
+
+
+/* makes the navbar items disapear and replaces them with a hamburger button */
+@media(max-width:564px){
+    .navbar-expand-sm .navbar-nav{
+        display:none;
+    }
+    button{
+        visibility:visible;
+    }
+}
+
+
+/* @media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+}} */
+
+/* @media (max-width: 1200px) {
+    #nav {
+         position:absolute;
+         left:0%;
+         top:10%;
+         margin: 0px;
+         padding: 0;
+         border: 1px yellow;
+         border-bottom: none;
+         width:100%;
+         z-index:9999;
+      }
+  } */

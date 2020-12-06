@@ -21,8 +21,13 @@ button{
     visibility:hidden;
 }
 
-/*--------------- media queries below ------------------*/
+#citytable{
+    background-color:rgb(255, 153, 0);
+}
 
+
+
+/*--------------- media queries below ------------------*/
 
 
 
@@ -36,23 +41,3 @@ button{
     }
 }
 
-
-/* @media (min-width: 992px){
-    .navbar-expand-lg .navbar-nav {
-        -ms-flex-direction: row;
-        flex-direction: row;
-}} */
-
-/* @media (max-width: 1200px) {
-    #nav {
-         position:absolute;
-         left:0%;
-         top:10%;
-         margin: 0px;
-         padding: 0;
-         border: 1px yellow;
-         border-bottom: none;
-         width:100%;
-         z-index:9999;
-      }
-  } */

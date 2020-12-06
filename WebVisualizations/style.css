@@ -4,7 +4,7 @@ body{
 }
 
 h1,h2{
-    color:orange
+    color:orange;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -26,13 +26,12 @@ button{
 }
 
 
-
 /*--------------- media queries below ------------------*/
 
 
 
 /* makes the navbar items disapear and replaces them with a hamburger button */
-@media(max-width:564px){
+@media(max-width:580px){
     .navbar-expand-sm .navbar-nav{
         display:none;
     }

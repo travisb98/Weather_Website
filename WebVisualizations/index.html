@@ -23,9 +23,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="nav-link"  href="index.html">Home Page</a>
+                <a class="dropdown-item"  href="index.html">Home Page</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="comparison.html">Comparisons</a>
                 <a class="dropdown-item" href="data.html">Data</a>
@@ -35,6 +34,7 @@
                 <a class="dropdown-item" href="Cloudiness.html">Cloudiness Visual</a>
                 <a class="dropdown-item" href="WindSpeed.html">Wind Speed Visual</a>
             </div>
+
 
 
             <!-- list of links to pages that normally appears on larger screen -->
@@ -67,35 +67,28 @@
    
 
 
-    <div class="container">
+    <div class="container" >
 
         <div class="row">
-            <div class="col-md-12">
-                <h1 >this is my h1 header in a row</h1>
+            <div class="col-lg-12">
+                <h1 >Home Page</h1>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-12">
-                <p > I'll put a general description of the project here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque ligula in nunc cursus aliquam. Sed bibendum ultricies tempor. Cras ipsum urna, commodo a volutpat et, suscipit at quam. Vestibulum consequat ac dui nec accumsan. Vestibulum feugiat tempus tristique. Suspendisse tempus nisi eget est blandit iaculis. Quisque efficitur eget sem et condimentum. Mauris facilisis vel nisi ac consectetur. Cras velit mi, viverra non rhoncus fermentum, tincidunt ut magna. Suspendisse eu feugiat justo, eu iaculis risus. Vestibulum accumsan ex ac porttitor tristique. Vestibulum commodo mollis nisl non ornare. Pellentesque tellus lacus, condimentum at mi at, maximus congue lacus. Curabitur fringilla diam id bibendum rutrum. Aenean eget tortor sed eros faucibus suscipit.</p>
+            <div class="col-lg-12" >
+                <p> The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                <p>After assembling the dataset, we used Matplotlib to plot vairous aspects of the weather vs. latitude. Facotrs we looked at included:temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualization created as part of the analysis, as well as explanations and descriptions of any trends and correclations witnessed.</p>
             </div>
         </div>
-        
-        <div class="row">
-            <p>this is a paragraph in a row</p>
-        </div>
-
-        <div class="row">
-            <div class = "col">
-                <div class="alert alert-primary" role="alert">
-                    <ul >
-                        <li>test list 1</li>
-                        <li>test list 1</li>
-                        <li>test list 1</li>
-                        <li>test list 1</li>
-                        <li>test list 1</li>
-                    </ul>
-                </div>
+        <div class="row justify-content-md-center" id="rowhomeimg">
+            <div class="col-lg-6" id="colhomimg">
+                <a href="MaxTemp.html"><img src="Resources/assets/images/Fig1.png" class ="img-responsive" id="homeimg"></a>
+                <a href="Humidity.html"><img src="Resources/assets/images/Fig2.png" class ="img-responsive" id="homeimg"></a>
+            </div>
+            <div class="col-lg-6" id="colhomimg">
+                <a href="Cloudiness.html"><img src="Resources/assets/images/Fig3.png" class ="img-responsive"id="homeimg"></a>
+                <a href="WindSpeed.html"><img src="Resources/assets/images/Fig4.png" class ="img-responsive"id="homeimg"></a>
             </div>
         </div>
     </div>  
